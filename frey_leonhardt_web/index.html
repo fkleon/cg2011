@@ -1,0 +1,79 @@
+ <!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: template [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : An Ocean of Sky
+Description: One column, with top naviation.  All divs, validations: XHTML Strict 1.0 & CSS
+Version    : 1.0
+Released   : 20081009
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="anoceanofsky.css" />
+<title>A Dragon's tale</title>
+</head>
+
+<body>
+    <div id="page">
+        <div class="topNaviagationLink"><a href="index.html">Home</a></div>
+        <div class="topNaviagationLink"><a href="topics.html">Topics</a></div>
+	</div>
+    <div id="mainPicture">
+    	<div class="picture">
+        	<div id="headerTitle">A Dragon's Tale</div>
+            <div id="headerSubtext">by Frederik Leonhardt & Michael Frey</div>
+        </div>
+    </div>
+        <div class="contentBox">
+    	<div class="innerBox">
+        	<div class="contentTitle">About the scene</div>
+          <div class="contentText">
+        <p>In our scene we used the so called <i>Stanford Dragon</i>, a model made of 871,414 triangles, shaded with a procedural marble bump shader, sitting on a wooden pedestal.</p>
+	<p>To be able to show the effects of our photon map, we did choose an indoor scene with some refractive objects. So we used a red and green <a href="http://en.wikipedia.org/wiki/Cornell_Box" target="_blank">Cornell Box</a>. 
+	In the front of our scene we have a pool of water textured by a procedural refractive bump shader. The glass sphere on the left and the diamond have a different refraction index and show the caustics from the photon map.</p>
+	<p>One of the spheres shows a planet surface generated via procedural shading. The focus of the camera (depth of field) is at the same distance as the planet sphere. 
+The floor is made out of light gray procedural marble.</p>
+	<p>The scene has a total of 888,752 triangles.</p>	
+	</div>
+
+        
+        <div class="contentTitle">The final image</div>
+    <div id="finalPicture">
+    	<div class="picture">
+        </div>
+    </div>
+        <div class="contentText">
+	<p>Our final image, you can download it in fullscreen here: <a href="result_final.png">A Dragon's Tale</a></p>
+	<p>The total rendering time was <b>6 hours and 8 minutes</b> on a Intel Core i3-2310M CPU @ 2.10GHz with 4x Halton sampling and additonally 16 random camera rays per pixel to achieve the <a href="topics.html#topic_dof">depth of field</a> effect. The scene contains 3 light sources.
+	We used <b>25 million photons</b> distributed over those light sources, and about 4.4 million of them were stored in the photon map (~3.4 million "direct" photons and ~1 million "caustic" photons).</p>
+	</div>
+        
+        
+        <div class="contentTitle">Models</div>
+          <div class="contentText">
+	<p>We used three freely available models, the Stanford Dragon, an ashtray (dont ask why!) and a Pumpkin.</p>
+	<p>The rest of the scene was modeled with Blender.</p>
+	<ul>
+	<li><a href = "http://graphics.stanford.edu/data/3Dscanrep/" target="_blank">The Stanford 3D Scanning Repository</li>
+	<li><a href="http://code.google.com/p/modelview-android/source/browse/trunk/assets/modelview-data/models/?r=29">Pumpkin</a></li>
+	<li><a href="http://www.oyonale.com/modeles.php?lang=en&format=OBJ">Ashtray</a></li>
+
+	</ul></div>
+
+
+        <div class="contentTitle">Contact us</div>
+	<div class="contentText">
+	<p>s9fkleon@stud.uni-saarland.de</p> 
+	<p>s9mlfrey@stud.uni-saarland.de</p></div>
+        </div>
+    </div>
+         <div id="footer">Design based on work by <a href="http://www.bryantsmith.com">bryant smith</a> | Modifications by Frederik Leonhardt </div>>
+</body>
+</html>
