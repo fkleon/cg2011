@@ -1,9 +1,9 @@
 # MiniRT (Mini Ray Tracer)
 
 A RayTracer developed within the scope of the lecture "Computer Graphics" in WS 2011/12 at Saarland University.
-Please visit the [course website](http://graphics.cg.uni-saarland.de/courses/winter-term-201112/ws1112-cg1000/) for more information.
+Please visit the [course website](https://graphics.cg.uni-saarland.de/courses/winter-term-201112/ws1112-cg1000/) and the [project website](https://fkleon.github.io/cg2011/) for more information.
 
-The ray tracer is based on a skeleton provided by the [Computer Graphics Chair](http://graphics.cg.uni-saarland.de) of the Saarland University.  
+The ray tracer is based on a skeleton provided by the [Computer Graphics Chair](https://graphics.cg.uni-saarland.de) of the Saarland University.  
 The website design is based on a free design by [Bryant Smith](http://bryantsmith.com).
 
 ### Collaborators
@@ -13,9 +13,9 @@ The website design is based on a free design by [Bryant Smith](http://bryantsmit
 
 ### Content
 
-* Source Code
-* Website Presentation
-* World Model (see Download section)
+* Source Code (`master` branch)
+* Website Presentation (`gh-pages` branch)
+* World Model (see [Download section](https://github.com/fkleon/cg2011/downloads))
 
 ### Implemented Topics
 
